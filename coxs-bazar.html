@@ -9,27 +9,76 @@
 </head>
 
 <body>
-    <header class="site-header small-header">
-        <h1>Cox's Bazar</h1>
+
+    <header class="header">
+        <div class="header-content">
+            <h1>Cox's Bazar</h1>
+            <p>The world’s longest natural sandy sea beach</p>
+        </div>
     </header>
-    <main class="container">
-        <section class="image-gallery">
-            <img src="cox's_image\image_1.jpg" alt="Cox's Bazar Beach" />
-            <img src="cox's_image\image_2.jpg" alt="Inani Beach" />
-            <img src="cox's_image\image_3.jpg" alt="Marine Drive" />
+
+    <main class="main-content">
+
+        <!-- Image Slider -->
+        <section class="slider-container">
+            <div class="slider" id="slider">
+                <img src="cox's_image/image_1.jpg" alt="Cox's Bazar Beach" />
+                <img src="cox's_image/image_2.jpg" alt="Inani Beach" />
+                <img src="cox's_image/image_3.jpg" alt="Marine Drive" />
+            </div>
+            <button class="nav prev" onclick="prevSlide()">&#10094;</button>
+            <button class="nav next" onclick="nextSlide()">&#10095;</button>
         </section>
+
+        <!-- Description -->
         <section class="description">
             <h2>About Cox's Bazar</h2>
             <p>
-                Cox’s Bazar is a major tourist attraction in southeastern Bangladesh, famous for the longest unbroken
-                sandy sea beach in the world. Its golden sands stretch over 120 km, complemented by beautiful sea waves,
-                green hills, and vibrant beach markets.
+                Cox’s Bazar is a beautiful coastal town in southeastern Bangladesh, famous for the longest uninterrupted
+                sea beach in the world. Tourists flock here for the stunning views, golden sands, seafood, and cultural
+                vibrancy. Don’t miss Inani Beach’s coral stones or a sunset drive along the scenic Marine Drive.
             </p>
         </section>
+        <!-- Key Attractions -->
+        <section class="key-spots">
+            <h2>Key Attractions in Cox's Bazar</h2>
+            <div class="spots-grid">
+                <div class="spot-card">
+                    <h3>Inani Beach</h3>
+                    <p>Famous for coral stones, calm waters, and fewer crowds — perfect for a peaceful retreat.</p>
+                </div>
+                <div class="spot-card">
+                    <h3>Himchari Waterfall</h3>
+                    <p>A scenic natural waterfall with hilltop viewpoints and picnic spots just south of the city.</p>
+                </div>
+                <div class="spot-card">
+                    <h3>Marine Drive</h3>
+                    <p>A stunning coastal highway stretching from Cox’s Bazar to Teknaf — ideal for scenic drives.</p>
+                </div>
+                <div class="spot-card">
+                    <h3>Laboni Beach</h3>
+                    <p>The most popular and accessible beach area with local markets, food stalls, and vibrant activity.
+                    </p>
+                </div>
+                <div class="spot-card">
+                    <h3>Saint Martin’s Island</h3>
+                    <p>A small tropical island known for crystal-clear waters and coral life — reachable by boat.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Back Button -->
+        <div class="center">
+            <a href="index.html" class="back-btn">← Back to All Destinations</a>
+        </div>
+
     </main>
-    <footer class="site-footer">
-        <p>&copy; 2025 BD-Tourists. All rights reserved.</p>
+
+    <footer class="footer">
+        <p>&copy; 2025 Discover Bangladesh. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

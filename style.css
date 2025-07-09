@@ -129,3 +129,57 @@ footer {
         font-size: 1.4rem;
     }
 }
+
+/* === Dropdown Button at Top-Right === */
+.dropdown-nav {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1000;
+}
+
+.menu-icon {
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem;
+    user-select: none;
+    background-color: #c8c82a;
+    border-radius: 6px;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+/* Dropdown Menu Styling */
+.dropdown-menu {
+    position: absolute;
+    top: 2.8rem;
+    right: 0;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    min-width: 180px;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    color: #004d4d;
+    font-weight: 500;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #e0f7fa;
+}
+
+/* Toggle display */
+#menu-toggle:checked+.menu-icon+.dropdown-menu {
+    display: block;
+}

@@ -9,28 +9,76 @@
 </head>
 
 <body>
-  <header class="site-header small-header">
-    <h1>The Sundarbans</h1>
+
+  <header class="header">
+    <div class="header-content">
+      <h1>The Sundarbans</h1>
+      <p>World’s largest mangrove forest & home to the Royal Bengal Tiger</p>
+    </div>
   </header>
-  <main class="container">
-    <section class="image-gallery">
-      <img src="sundarban/image_1.jpg" alt="Sundarbans mangrove forest" />
-      <img src="sundarban/image_2.jpg" alt="Boat ride in Sundarbans" />
-      <img src="sundarban/image_3.jpg" alt="Royal Bengal Tiger habitat" />
+
+  <main class="main-content">
+
+    <!-- Image Slider -->
+    <section class="slider-container">
+      <div class="slider" id="slider">
+        <img src="sundarban/image_1.jpg" alt="Sundarbans Mangrove" />
+        <img src="sundarban/image_2.jpg" alt="Boat Ride in Sundarbans" />
+        <img src="sundarban/image_3.jpg" alt="Royal Bengal Tiger Habitat" />
+      </div>
+      <button class="nav prev" onclick="prevSlide()">&#10094;</button>
+      <button class="nav next" onclick="nextSlide()">&#10095;</button>
     </section>
+
+    <!-- Description -->
     <section class="description">
       <h2>About the Sundarbans</h2>
       <p>
-        The Sundarbans is the world’s largest mangrove forest, spanning the delta of the Ganges, Brahmaputra, and Meghna
-        rivers. A UNESCO World Heritage Site, it is famous for its complex ecosystem, rich biodiversity, and as the home
-        of the elusive Royal Bengal Tiger. Visitors can explore the unique forest through boat safaris and wildlife
-        observation.
+        The Sundarbans is the largest mangrove forest in the world, located in the delta of the Ganges, Brahmaputra, and
+        Meghna rivers. It is a UNESCO World Heritage Site and a natural wonder teeming with biodiversity. Home to the
+        majestic Royal Bengal Tiger, it offers boat safaris, wildlife spotting, and a chance to experience one of the
+        most unique ecosystems on Earth.
       </p>
     </section>
+
+    <!-- Key Attractions -->
+    <section class="key-spots">
+      <h2>Key Attractions in the Sundarbans</h2>
+      <div class="spots-grid">
+        <div class="spot-card">
+          <h3>Karamjal Wildlife Center</h3>
+          <p>A popular entry point with watch towers and wildlife exhibits.</p>
+        </div>
+        <div class="spot-card">
+          <h3>Dublar Char</h3>
+          <p>A fishing island where the Rash Mela festival takes place annually.</p>
+        </div>
+        <div class="spot-card">
+          <h3>Harbaria Eco Tourism Spot</h3>
+          <p>Famous for nature trails, boat rides, and tiger tracks.</p>
+        </div>
+        <div class="spot-card">
+          <h3>Hiron Point</h3>
+          <p>A UNESCO-declared wildlife sanctuary, ideal for tiger and bird spotting.</p>
+        </div>
+        <div class="spot-card">
+          <h3>Katka Beach</h3>
+          <p>A sandy forest-side beach, perfect for watching deer, monkeys, and saltwater crocodiles.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="center">
+      <a href="index.html" class="back-btn">← Back to All Destinations</a>
+    </div>
+
   </main>
-  <footer class="site-footer">
-    <p>&copy; 2025 BD-Tourists. All rights reserved.</p>
+
+  <footer class="footer">
+    <p>&copy; 2025 Discover Bangladesh. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>

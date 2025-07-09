@@ -3,33 +3,82 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Srimangal - Discover Bangladesh</title>
     <link rel="stylesheet" href="cox's.css" />
 </head>
 
 <body>
-    <header class="site-header small-header">
-        <h1>Sreemangal</h1>
+
+    <header class="header">
+        <div class="header-content">
+            <h1>Srimangal</h1>
+            <p>The tea capital of Bangladesh</p>
+        </div>
     </header>
-    <main class="container">
-        <section class="image-gallery">
-            <img src="Sreemangal/image_1.jpg" alt="Tea Gardens in Srimangal" />
-            <img src="Sreemangal/image_2.jpg" alt="Lawachara National Park" />
-            <img src="Sreemangal/image_3.jpg" alt="7 Layer Tea" />
+
+    <main class="main-content">
+
+        <!-- Image Slider -->
+        <section class="slider-container">
+            <div class="slider" id="slider">
+                <img src="Sreemangal/image_1.jpg" alt="Srimangal Tea Garden" />
+                <img src="Sreemangal/image_2.jpg" alt="Lawachara Forest" />
+                <img src="Sreemangal/image_3.jpg" alt="7-Layer Tea" />
+            </div>
+            <button class="nav prev" onclick="prevSlide()">&#10094;</button>
+            <button class="nav next" onclick="nextSlide()">&#10095;</button>
         </section>
+
+        <!-- Description -->
         <section class="description">
             <h2>About Srimangal</h2>
             <p>
-                Srimangal is often called the tea capital of Bangladesh, known for its rolling green tea gardens, tribal
-                culture, and peaceful surroundings. It’s home to the famous 7-layer tea, Lawachara National Park, and
-                indigenous Khasi villages. Srimangal is a perfect retreat for nature lovers and cultural explorers.
+                Srimangal, located in the Sylhet division, is Bangladesh’s lush tea-growing region filled with green
+                valleys, tribal culture, and serene hills. It's a perfect retreat for nature lovers, home to the
+                world-famous 7-layer tea, Lawachara National Park, and several indigenous communities that offer a
+                cultural experience unlike anywhere else.
             </p>
         </section>
+
+        <!-- Key Attractions -->
+        <section class="key-spots">
+            <h2>Key Attractions in Srimangal</h2>
+            <div class="spots-grid">
+                <div class="spot-card">
+                    <h3>Lawachara National Park</h3>
+                    <p>A protected rainforest with rare wildlife including hoolock gibbons and exotic birds.</p>
+                </div>
+                <div class="spot-card">
+                    <h3>Tea Gardens</h3>
+                    <p>Iconic rolling hills of tea plantations open to visitors and guided tours.</p>
+                </div>
+                <div class="spot-card">
+                    <h3>7-Layer Tea</h3>
+                    <p>A famous multicolored tea only available in Srimangal's roadside shops.</p>
+                </div>
+                <div class="spot-card">
+                    <h3>Madhabpur Lake</h3>
+                    <p>A tranquil water body surrounded by hills and lotus flowers — great for a picnic.</p>
+                </div>
+                <div class="spot-card">
+                    <h3>Khasia & Monipuri Villages</h3>
+                    <p>Indigenous hill tribes offering homestays, handmade crafts, and cultural immersion.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="center">
+            <a href="index.html" class="back-btn">← Back to All Destinations</a>
+        </div>
+
     </main>
-    <footer class="site-footer">
-        <p>&copy; 2025 BD-Tourists. All rights reserved.</p>
+
+    <footer class="footer">
+        <p>&copy; 2025 Discover Bangladesh. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
