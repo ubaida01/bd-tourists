@@ -29,21 +29,6 @@ Explore the most beautiful tourist destinations in Bangladesh through a clean, r
 ✅ Fully hosted on GitHub Pages  
 ✅ Fast loading & accessible
 
----
-
-## 🗂️ Folder Structure
-
-bd-tourists/
-├── index.html
-├── coqs-bazar.html
-├── sundarbans.html
-├── srimangal.html
-├── styles.css
-├── images/
-│ ├── cox-1.jpg
-│ ├── sundarbans-1.jpg
-│ └── srimangal-1.jpg
-└── README.md---
 
 ## 💡 How It Works
 
