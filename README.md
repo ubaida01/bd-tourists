@@ -75,6 +75,3 @@ https://ubaida01.github.io/bd-tourists/
  Add service worker for offline access (PWA)
 
  Designed and developed with 💙 by Ubaida01
-
-```markdown
-[![GitHub Pages](https://img.shields.io/badge/Live%20Site-GitHub%20Pages-brightgreen?style=flat&logo=github)](https://ubaida01.github.io/bd-tourists/)
